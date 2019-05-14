@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CRUD</string>
+    <string name="nim">nim mahasiswa</string>
+    <string name="jur">jurusan</string>
+    <string name="nama">nama mahasiswa</string>
+    <string name="nimm">masukkan nim</string>
+    <string name="name">masukkan nama</string>
+    <string name="jrsn">masukkan jurusan</string>
+    <string name="u">update</string>
+    <string name="delete">HAPUS</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="login_account">Login Account</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <!--&lt;!&ndash;todo 4 include the barlayout for show the toolbar&ndash;&gt;-->
+    <!--<include-->
+    <!--android:id="@+id/toolbaar"-->
+    <!--layout="@layout/bar_layout"/>-->
+
+    <!--todo 5 create view for regiseter layout-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:paddingRight="16dp"
+        android:layout_centerInParent="true"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/create_a_new_account"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edtemail"
+            android:layout_marginTop="10dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edtpassword"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btnregister"
+            android:text="@string/register"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>
